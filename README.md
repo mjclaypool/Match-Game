@@ -5,17 +5,18 @@ This memory match game builds a 4x4 grid and challenges the user to find all eig
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Goal](#the-goal)
   - [Screenshots](#screenshots)
+  - [Game Link](#game-link)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
-### The challenge
+### The Goal
 
 Users should be able to:
 
@@ -27,9 +28,12 @@ Users should be able to:
 
 ### Screenshots
 
-![](./public/Match-Game_Start-Screen.png)
-![](./public/Match-Game_Game-Board.png)
-![](./public/Match-Game_Game-Over-Screen.png)
+![](./public/Screenshot-Welcome.png)
+![](./public/Screenshot-GameBoard.png)
+![](./public/Screenshot-GameOver.png)
+
+### Game Link
+- Live Site URL: [Match Game](https://mjclaypool.github.io/Match-Game/)
 
 ## My process
 
@@ -40,13 +44,11 @@ Users should be able to:
 - JavaScript
 - React
 
-### Continued development
+### Continued Development
 
-I plan to create a Card component and move the handling of displaying card images when clicked into that component. Currently the whole GameBoard rerenders on every click, so I will optimize the code by only rerendering the clicked card.
+Since some of the drink images are identical aside from a color change, I plan to add card titles below the images for improved accessibility.
 
-Since some of the drink images are identical aside from a color change, I also plan to add card titles below the images for improved accessibility.
-
-### Useful resources
+### Useful Resources
 - [Udemy: React - The Complete Guide 2024](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) - This React course by Maximilian Schwarzmuller, specifically the Tic-Tac-Toe project, inspired me to try building my own game with React. This course provides many hands-on learning opportunities and emphasizes React best practices early and often.
 
 - [Blush: The Munchies](https://blush.design/collections/the-munchies/the-munchies) - This collection of food and drink illustrations by Elsma Ramirez was used for the game's card images. There are many more, similarly-styled illustrations in this collection that could be used to expand the game with additional categories and/or difficulty levels.
