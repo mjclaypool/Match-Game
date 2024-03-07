@@ -28,14 +28,10 @@ body {
       rgba(183, 223, 250, 0.98),
       rgba(207, 233, 255, 0.87)
     ),
-    url('Cola2.png');
+    url('Cola.png');
   background-repeat: repeat;
   min-height: 110rem;
   margin: 0;
-  /* display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh; */
 }
 
 header {
@@ -76,7 +72,6 @@ ol {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 6px;
-  /* background: linear-gradient(#9ab5cc, #80a5c4); */
   background-color: #9ab5cc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   position: relative;
@@ -115,9 +110,6 @@ ol {
 li img {
   max-width: 80px;
   max-height: 80px;
-  /* object-fit: contain; */
-  /* margin: 1rem auto 1rem auto; */
-  /* filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4)); */
 }
 
 #game-mode {
@@ -147,7 +139,6 @@ li img {
   justify-content: center;
   align-items: center;
   background-color: rgba(40, 38, 23, 0.95);
-  /* background-color: rgba(53, 67, 92, 0.95); */
   animation: pop-in 0.5s cubic-bezier(0.68, -0.55, 0.65, 0.52) forwards;
 }
 
