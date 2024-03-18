@@ -29,7 +29,9 @@ Users should be able to:
 ### Screenshots
 
 ![](./public/Screenshot-Welcome.png)
+
 ![](./public/Screenshot-GameBoard.png)
+
 ![](./public/Screenshot-GameOver.png)
 
 ### Game Link
